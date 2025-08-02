@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Lab DARLIM</title>
+	<link rel="icon" href="Assets/Img/LOGO.png">
+
+	<!-- Online -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+		rel="stylesheet">
+
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+	<!-- External -->
+	<link rel="stylesheet" href="../Assets/CSS/Style.css">
+
+	<style>
+		.produk>.col img {
+			padding-top: 10px;
+			padding-bottom: 10px;
+			border-radius: 10px;
+		}
+
+		.produk>.col .sale {
+			font-weight: bolder;
+			font-size: 1.2em;
+		}
+
+		.produk>.col .ori {
+			text-decoration: line-through;
+		}
+
+		.produk>.col .sale-persen {
+			padding: 5px;
+			background-color: orange;
+			border-radius: 5px;
+		}
+	</style>
+	</style>
+
+</head>
+
+<body>
+
+	<header class="navbar navbar-expand-lg sticky-top">
+		<div class="container-fluid">
+			<div class="row align-items-center py-3">
+				<div class="col-auto">
+					<img class="img-fluid" src="../Assets/Img/Logo_Darlim_Fiks.png" alt="Logo Darlim"
+						style="width: 75px;">
+				</div>
+				<div class="col">
+					<h1 class="h3 mb-0" style="color: white;"><b>Lab DARLIM</b></h1>
+					<a class="text-muted" target="_blank"
+						href="https://www.google.com/maps/place/Kendangan,+Caturharjo,+Sleman,+Sleman+Regency,+Special+Region+of+Yogyakarta/@-7.6939408,110.3153218,17z/data=!3m1!4b1!4m6!3m5!1s0x2e7af5931a61b7b9:0x345a56e17bdaba2!8m2!3d-7.6937788!4d110.3152428!16s%2Fg%2F11f613s9tz?entry=ttu"
+						style="text-decoration: none; color: grey;">Kendangan</a>
+				</div>
+			</div>
+
+			<!-- NAV Start -->
+			<nav class="top-nav">
+				<input id="menu-toggle" type="checkbox" />
+				<label class='menu-button-container' for="menu-toggle">
+					<div class='menu-button'></div>
+				</label>
+				<ul class="menu">
+					<li><a href="../index.html"><i class="bi-house-door-fill"></i> Beranda</a></li>
+					<li><a href="./Berita.html"><i class="bi-newspaper"></i> Berita</a></li>
+					<li><a href="#"><i class="bi-file-earmark-text"></i> Artikel</a></li>
+					<li><a href="Produk.html" class="text-white"><i class="bi bi-shop"></i> Produk</a></li>
+					<li><a href="../Form/404.html"><i class="bi-mic"></i> Podcast</a></li>
+				</ul>
+			</nav>
+			<!-- NAV End -->
+
+			<form class="d-flex">
+				<input class="form-control me-2" type="search" placeholder="Cari" aria-label="Search">
+				<button class="btn btn-outline-success" style="background-color: rgb(4, 255, 159);" type="submit"><i
+						class="bi bi-search" ;"></i></button>
+			</form>
+
+
+
+
+		</div>
+	</header>
+
+	<!-- Content Section Carousel-->
+	<div class="bg1 container mt-3 mb-2" data-aos="fade-up">
+		<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<img src="../Assets/Img/Content/Craousel/Slide (1).png" class="d-block w-100" alt="...">
+				</div>
+				<div class="carousel-item">
+					<img src="../Assets/Img/Content/Craousel/Slide (2).png" class="d-block w-100" alt="...">
+				</div>
+				<div class="carousel-item">
+					<img src="../Assets/Img/Content/Craousel/Slide (3).png" class="d-block w-100" alt="...">
+				</div>
+			</div>
+			<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+				data-bs-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Previous</span>
+			</button>
+			<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+				data-bs-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Next</span>
+			</button>
+		</div>
+	</div>
+
+	<!-- Produk DARLIM -->
+	<div class="container mt-5 mb-5">
+		<div class="row align-items-center text-center">
+			<div class="col">
+				<hr class="border border-3 opacity-75">
+				<img class="img-fluid" src="../Assets/Img/Logo Panjang Fiks2.png" alt="" style="width: 500px;">
+			</div>
+			<div class="mt-4">
+				<h3 class="d-none d-lg-block">Produk Asli Ramah Lingkungan DARLIM
+				</h3>
+
+				<p style="color: #EAB682 ;">#GreenlifeStyleAsOurTale!</p>
+			</div>
+		</div>
+	</div>
+
+	<!-- produk -->
+	<div class="container-fluid mt-5 mb-2">
+		<div class="row row-cols-2 row-cols-lg-5 row-cols-md-3 produk">
+			<div class="col">
+				<div class="card pro">
+					<img class="card-img-top" src="../Assets/Img/Content/Section/produk1.jpg">
+					<div class="card-body">
+						<h5 class="card-title">
+							Meja dan Kursi
+						</h5>
+						<p class="card-text">
+							<span class="sale">Rp 85.000</span> <br />
+							<span class="sale-persen">10%</span> <span class="ori">Rp 100.000</span>
+						</p>
+						<div class="btn-group">
+							<a href="#" class="btn btn-primary">
+								Beli
+							</a>
+							<a href="#" class="btn btn-info">
+								Detail
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col">
+				<div class="card">
+					<img class="card-img-top" src="../Assets/Img/Content/Section/produk2.jpg">
+					<div class="card-body">
+						<h5 class="card-title">
+							Kotak Kayu
+						</h5>
+						<p class="card-text">
+							<span class="sale">Rp 25.000</span> <br />
+							<span class="sale-persen">10%</span> <span class="ori">Rp 50.000</span>
+						</p>
+						<div class="btn-group">
+							<a href="#" class="btn btn-primary">
+								Beli
+							</a>
+							<a href="#" class="btn btn-info">
+								Detail
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col">
+				<div class="card">
+					<img class="card-img-top" src="../Assets/Img/Content/Section/produk3.jpg">
+					<div class="card-body">
+						<h5 class="card-title">
+							Pupuk Cair POC
+						</h5>
+						<p class="card-text">
+							<span class="sale">Rp 9.000</span> <br />
+							<span class="sale-persen">10%</span> <span class="ori">Rp 10.000</span>
+						</p>
+						<div class="btn-group">
+							<a href="#" class="btn btn-primary">
+								Beli
+							</a>
+							<a href="detailproduk.html" class="btn btn-info">
+								Detail
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col">
+				<div class="card">
+					<img class="card-img-top" src="../Assets/Img/Content/Section/produk4.jpg">
+					<div class="card-body">
+						<h5 class="card-title">
+							Maggot / 1kg
+						</h5>
+						<p class="card-text">
+							<span class="sale">Rp 25.000</span> <br />
+							<span class="sale-persen">10%</span> <span class="ori">Rp 50.000</span>
+						</p>
+						<div class="btn-group">
+							<a href="#" class="btn btn-primary">
+								Beli
+							</a>
+							<a href="#" class="btn btn-info">
+								Detail
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col">
+				<div class="card">
+					<img class="card-img-top" src="../Assets/Img/Content/Section/produk5.jpg">
+					<div class="card-body">
+						<h5 class="card-title">
+							Tatakan Meja
+						</h5>
+						<p class="card-text">
+							<span class="sale">Rp 25.000</span> <br />
+							<span class="sale-persen">10%</span> <span class="ori">Rp 50.000</span>
+						</p>
+						<div class="btn-group">
+							<a href="#" class="btn btn-primary">
+								Beli
+							</a>
+							<a href="#" class="btn btn-info">
+								Detail
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col">
+				<div class="card">
+					<img class="card-img-top" src="../Assets/Img/Content/Section/produk5.jpg">
+					<div class="card-body">
+						<h5 class="card-title">
+							Tatakan Meja
+						</h5>
+						<p class="card-text">
+							<span class="sale">Rp 25.000</span> <br />
+							<span class="sale-persen">10%</span> <span class="ori">Rp 50.000</span>
+						</p>
+						<div class="btn-group">
+							<a href="#" class="btn btn-primary">
+								Beli
+							</a>
+							<a href="#" class="btn btn-info">
+								Detail
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col">
+				<div class="card">
+					<img class="card-img-top" src="../Assets/Img/Content/Section/produk4.jpg">
+					<div class="card-body">
+						<h5 class="card-title">
+							Maggot / 1kg
+						</h5>
+						<p class="card-text">
+							<span class="sale">Rp 25.000</span> <br />
+							<span class="sale-persen">10%</span> <span class="ori">Rp 50.000</span>
+						</p>
+						<div class="btn-group">
+							<a href="#" class="btn btn-primary">
+								Beli
+							</a>
+							<a href="#" class="btn btn-info">
+								Detail
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col">
+				<div class="card">
+					<img class="card-img-top" src="../Assets/Img/Content/Section/produk3.jpg">
+					<div class="card-body">
+						<h5 class="card-title">
+							Pupuk Cair POC
+						</h5>
+						<p class="card-text">
+							<span class="sale">Rp 9.000</span> <br />
+							<span class="sale-persen">10%</span> <span class="ori">Rp 10.000</span>
+						</p>
+						<div class="btn-group">
+							<a href="#" class="btn btn-primary">
+								Beli
+							</a>
+							<a href="detailproduk.html" class="btn btn-info">
+								Detail
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col">
+				<div class="card">
+					<img class="card-img-top" src="../Assets/Img/Content/Section/produk2.jpg">
+					<div class="card-body">
+						<h5 class="card-title">
+							Kotak Kayu
+						</h5>
+						<p class="card-text">
+							<span class="sale">Rp 25.000</span> <br />
+							<span class="sale-persen">10%</span> <span class="ori">Rp 50.000</span>
+						</p>
+						<div class="btn-group">
+							<a href="#" class="btn btn-primary">
+								Beli
+							</a>
+							<a href="#" class="btn btn-info">
+								Detail
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col">
+				<div class="card pro">
+					<img class="card-img-top" src="../Assets/Img/Content/Section/produk1.jpg">
+					<div class="card-body">
+						<h5 class="card-title">
+							Meja dan Kursi
+						</h5>
+						<p class="card-text">
+							<span class="sale">Rp 85.000</span> <br />
+							<span class="sale-persen">10%</span> <span class="ori">Rp 100.000</span>
+						</p>
+						<div class="btn-group">
+							<a href="#" class="btn btn-primary">
+								Beli
+							</a>
+							<a href="#" class="btn btn-info">
+								Detail
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<!-- footer -->
+	<footer id="footer">
+		<div class="footer-top">
+			<div class="container">
+				<div class="row">
+
+					<div class="col-lg-3 col-md-6">
+						<div class="footer-info">
+							<img src="Assets/Img/Logo_Darlim_Fiks.png" width="50px" alt="">
+							<h3>Lab Darlim</h3>
+							<p>
+								Kendangan RT 003/RW 034
+								<br>
+								Kecamatan Caturharjo
+								<br>
+								Kabupaten Sleman
+								<br>
+								Daerah Istimewa Yogyakarta
+								<br>
+								<br>
+								<strong>Phone:</strong> +62 89619076789<br>
+								<strong>Email:</strong> <a href=""
+									style="text-decoration: none;">nurhdyt37@gmail.com</a><br>
+							</p>
+							<div class="social-links mt-3">
+								<ul>
+									<li><a href="#"><i class="bi bi-twitter-x icon"></i></a></li>
+									<li><a href="#"><i class="bi bi-facebook icon"></i></a></li>
+									<li><a href="#"><i class="bi bi-instagram icon"></i></a></li>
+									<li><a href="#"><i class="bi bi-linkedin icon"></i></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-lg-2 col-md-6 footer-links">
+						<h4>Tentang Kami</h4>
+						<ul>
+							<li><i class="bi bi-chevron-right"></i> <a href="#">Blog</a></li>
+							<li><i class="bi bi-chevron-right"></i> <a href="#">Community</a></li>
+							<li><i class="bi bi-chevron-right"></i> <a href="#">Layanan</a></li>
+							<li><i class="bi bi-chevron-right"></i> <a href="#">Persyaratan layanan</a></li>
+							<li><i class="bi bi-chevron-right"></i> <a href="#">Kebijakan</a></li>
+						</ul>
+					</div>
+
+					<div class="col-lg-3 col-md-6 footer-links">
+						<h4>Our Services</h4>
+						<ul>
+							<li><i class="bi bi-chevron-right"></i> <a href="#">Web Design</a></li>
+							<li><i class="bi bi-chevron-right"></i> <a href="#">Web Development</a></li>
+							<li><i class="bi bi-chevron-right"></i> <a href="#">Product Management</a></li>
+							<li><i class="bi bi-chevron-right"></i> <a href="#">Marketing</a></li>
+							<li><i class="bi bi-chevron-right"></i> <a href="#">Graphic Design</a></li>
+						</ul>
+					</div>
+
+					<div class="col-lg-4 col-md-6 footer-newsletter">
+						<h4>Our Newsletter</h4>
+						<p>Ingin tahu berita terbaru Lab DARLIM?<br>
+							Berlangganan Sekarang
+						<div style="color: yellow;">GERATIS<i class="bi bi-arrow-down"></i></div>
+						</p>
+						<form action="" method="post">
+							<input type="email" name="email"><input type="submit" value="Subscribe">
+						</form>
+
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="copyright">
+				&copy; Copyright <strong><span>Lab DARLIM</span></strong>. All Rights Reserved
+			</div>
+			<div class="credits">
+				Designed by <a href="#">Staff VOC <p style="color: red;">Kelompok 1</p></a>
+			</div>
+		</div>
+	</footer>
+
+	<a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+			class="bi bi-arrow-up-short"></i></a>
+
+	<!-- JS Online -->
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.4/dist/umd/popper.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+	<script src="../Assets/Js/Js.js"></script>
+
+	<script>
+		AOS.init();
+	</script>
+
+</body>
+
+</html>

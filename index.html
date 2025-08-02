@@ -1,0 +1,926 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab DARLIM</title>
+    <link rel="icon" href="Assets/Img/LOGO.png">
+
+    <!-- Online -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- External -->
+    <link rel="stylesheet" href="Assets/CSS/Style.css">
+
+</head>
+
+<body>
+
+    <div id="splash-screen">
+        <div class="splash-content">
+            <img src="./Assets/Img/LOGO.png" alt="Logo" class="splash-logo">
+            <h1 class="splash-title">Welcome to Our Website</h1>
+            <div class="loading-spinner"></div>
+        </div>
+    </div>
+    <div id="main-content" style="display:none;">
+
+
+        <header class="navbar navbar-expand-lg sticky-top">
+            <div class="container-fluid">
+                <div class="row align-items-center py-3">
+                    <div class="col-auto">
+                        <img class="img-fluid" src="Assets/Img/Logo_Darlim_Fiks.png" alt="Logo Darlim"
+                            style="width: 75px;">
+                    </div>
+                    <div class="col">
+                        <h1 class="h3 mb-0" style="color: white;"><b>Lab DARLIM</b></h1>
+                        <a target="_blank"
+                            href="https://www.google.com/maps/place/Kendangan,+Caturharjo,+Sleman,+Sleman+Regency,+Special+Region+of+Yogyakarta/@-7.6939408,110.3153218,17z/data=!3m1!4b1!4m6!3m5!1s0x2e7af5931a61b7b9:0x345a56e17bdaba2!8m2!3d-7.6937788!4d110.3152428!16s%2Fg%2F11f613s9tz?entry=ttu"
+                            style="text-decoration: none; color: rgba(1, 18, 104, 0.616);">Kendangan</a>
+                    </div>
+                </div>
+
+                <!-- NAV Start -->
+                <nav class="top-nav">
+                    <input id="menu-toggle" type="checkbox" />
+                    <label class='menu-button-container' for="menu-toggle">
+                        <div class='menu-button'></div>
+                    </label>
+                    <ul class="menu">
+                        <li><a href="./index.html"><i class="bi-house-door-fill"></i> Beranda</a></li>
+                        <li><a href="./Form/Berita.html"><i class="bi-newspaper"></i> Berita</a></li>
+                        <li><a href="./Form/Artikel.html"><i class="bi-file-earmark-text"></i> Artikel</a></li>
+                        <li><a href="Form/Produk.html"><i class="bi bi-shop"></i> Produk</a></li>
+                        <li><a href="Form/404.html"><i class="bi-mic"></i> Podcast</a></li>
+                    </ul>
+                </nav>
+                <!-- NAV End -->
+
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Cari" aria-label="Search">
+                    <button class="btn btn-outline-success" style="background-color: rgb(4, 255, 159);" type="submit"><i
+                            class="bi bi-search" ;"></i></button>
+                </form>
+
+
+
+            </div>
+        </header>
+
+
+        <!-- AWAL -->
+        <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
+            <div class="container text-center text-md-left" data-aos="fade-up">
+                <h1>Selamat Datang di<br>
+                    Lab DARLIM</h1>
+                <h2>wadah anak muda agar bisa meningkatkan kreatifitas, inovasi, dan pemikiran kritisnya dalam
+                    menanggapi
+                    segala permasalahan lingkungan di sekitar</h2>
+                <a href="#GO" class="btn-get-started scrollto">Mulai</a>
+            </div>
+        </section>
+
+        <div class="w container-fluid">
+            <!-- Ininity Auto Craousel -->
+            <div id="GO" class="container d-none d-lg-block" style="padding-top: 50px;">
+                <div class="slider">
+                    <div class="slide-track">
+                        <div class="slide">
+                            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/1.png" height="100"
+                                width="250" alt="" />
+                        </div>
+                        <div class="slide">
+                            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png" height="100"
+                                width="250" alt="" />
+                        </div>
+                        <div class="slide">
+                            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/3.png" height="100"
+                                width="250" alt="" />
+                        </div>
+                        <div class="slide">
+                            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/4.png" height="100"
+                                width="250" alt="" />
+                        </div>
+                        <div class="slide">
+                            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/5.png" height="100"
+                                width="250" alt="" />
+                        </div>
+                        <div class="slide">
+                            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png" height="100"
+                                width="250" alt="" />
+                        </div>
+                        <div class="slide">
+                            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/7.png" height="100"
+                                width="250" alt="" />
+                        </div>
+                        <div class="slide">
+                            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/1.png" height="100"
+                                width="250" alt="" />
+                        </div>
+                        <div class="slide">
+                            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png" height="100"
+                                width="250" alt="" />
+                        </div>
+                        <div class="slide">
+                            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/3.png" height="100"
+                                width="250" alt="" />
+                        </div>
+                        <div class="slide">
+                            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/4.png" height="100"
+                                width="250" alt="" />
+                        </div>
+                        <div class="slide">
+                            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/5.png" height="100"
+                                width="250" alt="" />
+                        </div>
+                        <div class="slide">
+                            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png" height="100"
+                                width="250" alt="" />
+                        </div>
+                        <div class="slide">
+                            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/7.png" height="100"
+                                width="250" alt="" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Deskripsi DARLIM -->
+            <div class="container mt-5 mb-5">
+                <div class="row align-items-center text-center">
+                    <div class="col">
+                        <hr class="border border-3 opacity-75">
+                        <img class="img-fluid" src="Assets/Img/Logo Panjang Fiks2.png" alt="" style="width: 500px;">
+                    </div>
+                    <div class="mt-4">
+                        <p class="d-none d-lg-block">Laboratorium "DARLIM" merupakan suatu wadah bagi anak muda untuk
+                            belajar dan terlibat secara langsung
+                            dalam permasalahan lingkungan sekitar.
+                            <br>
+                            Kata "DARLIM" sendiri merupakan sebuah akronim dari kalimat "Pemuda Sadar Iklim".
+
+                            Kegiatan ini berfokus pada pemberdayaan anak muda untuk berkegiatan secara positif, kreatif,
+                            dan
+                            inovatif. Salah satunya yaitu pengolahan sampah organik dan plastik menjadi barang yang
+                            memiliki
+                            nilai ekonomi kembali.
+                            <br>
+                            Adanya Laboratorium ini, harapanya dapat menjadi langkah awal untuk merubah pola pikir
+                            masyarakat
+                            dalam menanggapi permasalahan sampah disekitar. Selain itu, terciptanya anak muda yang aktif
+                            dan
+                            kritis menjadi ujung tombak kemajuan suatu bangsa.
+
+                        <div style="color: #EAB682 ;">#GreenlifeStyleAsOurTale!</div>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Produk Kami -->
+            <div class="container-fluid py-5 mt-5 mb-5">
+                <div class="container">
+                    <div class="row g-5">
+                        <div class="col-lg-6">
+                            <div class="row g-3">
+                                <div class="col-6 text-end">
+                                    <img class="img-fluid bg-white w-100 mb-3" data-aos="fade-up"
+                                        src="Assets/Img/Content/Section/G1.jpg" alt="">
+                                    <img class="img-fluid bg-white w-50" data-aos="fade-left"
+                                        src="Assets/Img/Content/Section/K1.jpg" alt="">
+                                </div>
+                                <div class="col-6">
+                                    <img class="img-fluid bg-white w-50 mb-3" data-aos="fade-right"
+                                        src="Assets/Img/Content/Section/K2.jpg" alt="">
+                                    <img class="img-fluid bg-white w-100" data-aos="zoom-in" data-aos-duration="1000"
+                                        src="Assets/Img/Content/Section/G2.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6" data-aos-duration="2000" data-aos="fade-up">
+                            <div class="section-title">
+                                <p class="text-success">Produk</p>
+                                <h1 class="display-6" style="font-family: Verdana;">Produk Yang Telah Di Ciptakan Oleh
+                                    Lab
+                                    DARLIM</h1>
+                                <hr class="border border-success border-2 opacity-50">
+                            </div>
+                            <div class="row g-3 mb-4">
+                                <div class="col-sm-4">
+                                    <img class="img-fluid bg-white w-100" data-aos="zoom-in" data-aos-duration="3000"
+                                        src="Assets/Img/Content/Section/P (1).jpg" alt="">
+                                </div>
+                                <div class="col-sm-8">
+                                    <h5>Tatakan meja ramah lingkungan dari plastik daur ulang</h5>
+                                    <p class="mb-0">Tatakan meja plastik daur ulang kami terbuat dari 100% plastik daur
+                                        ulang, Tersedia dalam berbagai warna, bentuk, dan desain yang unik untuk
+                                        melengkapi
+                                        gaya dekorasi Anda. Kunjungi toko kami atau kunjungi situs web kami untuk
+                                        melihat
+                                        koleksi lengkap tatakan meja plastik daur ulang kami.</p>
+                                </div>
+                            </div>
+                            <div class="border-top mb-4"></div>
+                            <div class="row g-3">
+                                <div class="col-sm-8">
+                                    <h5>Pupuk Organik Cair</h5>
+                                    <img class="img-fluid bg-white w-100 d-block d-sm-none" data-aos="zoom-in"
+                                        data-aos-duration="3000" src="Assets/Img/Content/Section/P (2).jpg" alt="">
+                                    <p class="mb-0">Pupuk organik terbuat dari bahan-bahan alami dan tidak mencemari
+                                        lingkungan, menjadikannya pilihan tepat bagi petani dan pecinta tanaman yang
+                                        berwawasan lingkungan. Kaya akan unsur hara alami yang mudah diserap tanaman,
+                                        menghasilkan pertumbuhan yang optimal dan hasil panen yang melimpah.</p>
+                                </div>
+                                <div class="col-sm-4">
+                                    <img class="img-fluid bg-white w-100 d-none d-lg-block" data-aos="zoom-in"
+                                        data-aos-duration="3000" src="Assets/Img/Content/Section/P (2).jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Konten 3 PIC -->
+            <div class="container mt-4 d-none d-lg-block">
+                <hr class="border border-3 opacity-75">
+                <div class="row">
+                    <div class="col-md-4" data-aos="fade-left" data-aos-duration="3000" data-aos-delay="50">
+                        <div class="card gmb">
+                            <div class="img-box">
+                                <img src="Assets/Img/Content/K1 (1).jpg" alt="">
+                            </div>
+                            <div class="content">
+                                <h2>DARLIM 1</h2>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias illum aut
+                                    consequuntur
+                                    quas
+                                    cupiditate
+                                    cumque tempora harum dignissimos nobis incidunt, culpa exercitationem rerum
+                                    consectetur
+                                    non
+                                    ullam
+                                    magnam,
+                                    aliquid quae animi.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4" data-aos="zoom-in" data-aos-duration="3000">
+                        <div class="card gmb">
+                            <div class="img-box">
+                                <img src="Assets/Img/Content/K1 (2).jpg" alt="">
+                            </div>
+                            <div class="content">
+                                <h2>DARLIM 2</h2>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias illum aut
+                                    consequuntur
+                                    quas
+                                    cupiditate
+                                    cumque tempora harum dignissimos nobis incidunt, culpa exercitationem rerum
+                                    consectetur
+                                    non
+                                    ullam
+                                    magnam,
+                                    aliquid quae animi.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4" data-aos="fade-right" data-aos-duration="3000" data-aos-delay="50">
+                        <div class="card gmb">
+                            <div class="img-box">
+                                <img src="Assets/Img/Content/K1 (3).jpg" alt="">
+                            </div>
+                            <div class="content">
+                                <h2>DARLIM 3</h2>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias illum aut
+                                    consequuntur
+                                    quas
+                                    cupiditate
+                                    cumque tempora harum dignissimos nobis incidunt, culpa exercitationem rerum
+                                    consectetur
+                                    non
+                                    ullam
+                                    magnam,
+                                    aliquid quae animi.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr class="border border-3 opacity-75">
+            </div>
+
+            <!-- Facts Start -->
+            <div class="container-fluid facts my-5 py-5 d-none d-lg-block"
+                style="background-image: url('./Assets/Img/BG2.jpg'); background-size: cover; background-attachment: fixed;">
+                <div class="container py-5">
+                    <div class="row g-5">
+                        <div class="col-sm-6 col-lg-3 text-center" data-aos="fade-up" data-aos-delay="100">
+                            <h1 id="hitung1" class="display-4 text-white" data-aos="fade-up" data-aos-delay="100">1234
+                            </h1>
+                            <span class="fs-5 fw-semi-bold text-light">Anggota</span>
+                        </div>
+                        <div class="col-sm-6 col-lg-3 text-center" data-aos="fade-up" data-aos-delay="300">
+                            <h1 id="hitung2" class="display-4 text-white" data-aos="fade-up" data-aos-delay="300">1234
+                            </h1>
+                            <span class="fs-5 fw-semi-bold text-light">Project</span>
+                        </div>
+                        <div class="col-sm-6 col-lg-3 text-center" data-aos="fade-up" data-aos-delay="500">
+                            <h1 id="hitung3" class="display-4 text-white" data-aos="fade-up" data-aos-delay="500">1234
+                            </h1>
+                            <span class="fs-5 fw-semi-bold text-light">Konsumen</span>
+                        </div>
+                        <div class="col-sm-6 col-lg-3 text-center" data-aos="fade-up" data-aos-delay="700">
+                            <h1 id="hitung4" class="display-4 text-white" data-aos="fade-up" data-aos-delay="700">1234
+                            </h1>
+                            <span class="fs-5 fw-semi-bold text-light">Penghargaan</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Structure Organisasi Darlim -->
+            <div class="container mt-5 mb-5">
+                <hr class="border border-3 opacity-75">
+                <div class="portfolio-section">
+                    <div class="title" style="width: 100%;">Struktur Organisasi Lab DARLIM</div>
+                    <div class="divider"></div>
+                    <div class="subtitle mb-5">Struktur organisasi adalah kerangka kerja yang mendefinisikan bagaimana
+                        sebuah
+                        organisasi tersusun <br> menggambarkan pembagian
+                        tugas, dan hubungan antar anggota-anggotanya untuk mencapai tujuan bersama.</div>
+                    <img src="Assets/Img/Content/Struktur Organisasi DARLIM Kendangan.jpg" alt="" style="width: 100%;">
+                </div>
+            </div>
+
+            <!-- Kegiatan -->
+            <div class="container py-5 mt-5 mb-5 bg-body-tertiary d-none d-lg-block">
+                <div class="container">
+                    <div class="text-center mx-auto" data-aos="fade-up" data-aos-delay="100" style="max-width: 500px;">
+                        <p class="fs-5 fw-bold text-primary">Kegiatan</p>
+                        <h1 class="display-5">Kegiatan Bersama Lab DARLIM</h1>
+                        <p class="mt-3 mb-5">mulai dari diri sendiri, ajak keluarga, teman, dan komunitas untuk
+                            bersama-sama
+                            menjaga lingkungan.</p>
+                    </div>
+                    <div class="row g-4">
+                        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                            <div class="service-item rounded d-flex h-100">
+                                <div class="service-img rounded">
+                                    <img class="img-fluid " src="Assets/Img/Content/Kegiatan/kegiatan (1).jpg"
+                                        alt="Service 1">
+                                </div>
+                                <div class="service-text rounded p-5">
+                                    <div class="btn-square rounded-circle mx-auto">
+                                        <i class="bi bi-tree-fill text-success"></i>
+                                    </div>
+                                    <h4 class="mb-3">Reboisasi</h4>
+                                    <p class="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed
+                                        diam
+                                        stet diam sed stet.</p>
+                                    <a class="btn btn-sm bg-success text-white" href=""><i
+                                            class="bi bi-plus text-white me-2"></i>Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                            <div class="service-item rounded d-flex h-100">
+                                <div class="service-img rounded">
+                                    <img class="img-fluid" src="Assets/Img/Content/Kegiatan/kegiatan (2).jpg"
+                                        alt="Service 2">
+                                </div>
+                                <div class="service-text rounded p-5">
+                                    <div class="btn-square rounded-circle mx-auto">
+                                        <i class="bi bi-scissors text-success"></i>
+                                    </div>
+                                    <h4 class="mb-3">Belajar</h4>
+                                    <p class="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed
+                                        diam
+                                        stet diam sed stet.</p>
+                                    <a class="btn btn-sm bg-success text-white" href=""><i
+                                            class="bi bi-plus me-2"></i>Read
+                                        More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+                            <div class="service-item rounded d-flex h-100">
+                                <div class="service-img rounded">
+                                    <img class="img-fluid" src="Assets/Img/Content/Kegiatan/kegiatan (3).jpg"
+                                        alt="Service 3">
+                                </div>
+                                <div class="service-text rounded p-5">
+                                    <div class="btn-square rounded-circle mx-auto">
+                                        <i class="bi bi-droplet-half text-success"></i>
+                                    </div>
+                                    <h4 class="mb-3">Gotong Royong</h4>
+                                    <p class="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed
+                                        diam
+                                        stet diam sed stet.</p>
+                                    <a class="btn btn-sm bg-success text-white" href=""><i
+                                            class="bi bi-plus me-2"></i>Read
+                                        More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                            <div class="service-item rounded d-flex h-100">
+                                <div class="service-img rounded">
+                                    <img class="img-fluid" src="Assets/Img/Content/Kegiatan/kegiatan (4).jpg"
+                                        alt="Service 4">
+                                </div>
+                                <div class="service-text rounded p-5">
+                                    <div class="btn-square rounded-circle mx-auto">
+                                        <i class="bi bi-gear-fill text-success"></i>
+                                    </div>
+                                    <h4 class="mb-3">Pertemuan MK87</h4>
+                                    <p class="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed
+                                        diam
+                                        stet diam sed stet.</p>
+                                    <a class="btn btn-sm bg-success text-white" href=""><i
+                                            class="bi bi-plus me-2"></i>Read
+                                        More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                            <div class="service-item rounded d-flex h-100">
+                                <div class="service-img rounded">
+                                    <img class="img-fluid" src="Assets/Img/Content/Kegiatan/kegiatan (5).jpg"
+                                        alt="Service 5">
+                                </div>
+                                <div class="service-text rounded p-5">
+                                    <div class="btn-square rounded-circle mx-auto">
+                                        <i class="bi bi-lightbulb-fill text-success"></i>
+                                    </div>
+                                    <h4 class="mb-3">Green Technology</h4>
+                                    <p class="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed
+                                        diam
+                                        stet diam sed stet.</p>
+                                    <a class="btn btn-sm bg-success text-white" href=""><i
+                                            class="bi bi-plus me-2"></i>Read
+                                        More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+                            <div class="service-item rounded d-flex h-100">
+                                <div class="service-img rounded">
+                                    <img class="img-fluid" src="Assets/Img/Content/Kegiatan/kegiatan (6).jpg"
+                                        alt="Service 6">
+                                </div>
+                                <div class="service-text rounded p-5">
+                                    <div class="btn-square rounded-circle mx-auto">
+                                        <i class="bi bi-house-door-fill text-success"></i>
+                                    </div>
+                                    <h4 class="mb-3">Diskusi</h4>
+                                    <p class="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed
+                                        diam
+                                        stet diam sed stet.</p>
+                                    <a class="btn btn-sm bg-success text-white" href=""><i
+                                            class="bi bi-plus me-2"></i>Read
+                                        More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Komunitas -->
+            <div class="container py-5 mb-5 mt-5">
+                <div class="container">
+                    <div class="row g-5 align-items-center">
+                        <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+                            <p class="fs-5 fw-bold text-success">Komunitas!</p>
+                            <h1 class="display-5 mb-4">Bergabung Bersama Kami di Laboratorium DARLIM!</h1>
+                            <p class="mb-4">Komunitas ramah lingkungan menyediakan ruang bagi Anda untuk bertemu dengan
+                                orang-orang yang memiliki kepedulian terhadap lingkungan. Anda dapat menjalin pertemanan
+                                baru, berbagi ide, dan saling memotivasi untuk melakukan aksi nyata.</p>
+                            <a class="btn btn-success py-3 px-4" href="Form/404.html">Selangkapnya....</a>
+                        </div>
+                        <div class="col-lg-6 d-none d-lg-block">
+                            <div class="row g-4 align-items-center">
+                                <div class="col-md-6">
+                                    <div class="row g-4">
+                                        <div class="col-12" data-aos="fade" data-aos-delay="300">
+                                            <div class="text-center rounded py-5 px-4"
+                                                style="box-shadow: 0 0 45px rgba(0,0,0,.08);">
+                                                <div class="btn-square bg-light rounded-circle mx-auto mb-4"
+                                                    style="width: 90px; height: 90px;">
+                                                    <img src="Assets/Img/Content/Komunitas/Ellipse (1).jpg" alt="">
+                                                </div>
+                                                <h5 class="mb-0">Tindakan Nyata</h5>
+                                            </div>
+                                        </div>
+                                        <div class="col-12" data-aos="fade" data-aos-delay="500">
+                                            <div class="text-center rounded py-5 px-4"
+                                                style="box-shadow: 0 0 45px rgba(0,0,0,.08);">
+                                                <div class="btn-square bg-light rounded-circle mx-auto mb-4"
+                                                    style="width: 90px; height: 90px;">
+                                                    <img src="Assets/Img/Content/Komunitas/Ellipse (2).jpg" alt="">
+                                                </div>
+                                                <h5 class="mb-0">Membangun Persaudaraan</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6" data-aos="fade" data-aos-delay="700">
+                                    <div class="text-center rounded py-5 px-4"
+                                        style="box-shadow: 0 0 45px rgba(0,0,0,.08);">
+                                        <div class="btn-square bg-light rounded-circle mx-auto mb-4"
+                                            style="width: 90px; height: 90px;">
+                                            <img src="Assets/Img/Content/Komunitas/Ellipse (3).jpg" alt="">
+                                        </div>
+                                        <h5 class="mb-0">Mengembangkan Diri</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- FAQ -->
+            <section id="faq" class="faq section-bg bg-body-tertiary py-5">
+                <div class="container">
+                    <div class="section-title text-center mb-5" data-aos="fade-up">
+                        <h2 class="text-success">F.A.Q</h2>
+                        <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem.
+                            Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit
+                            alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+                    </div>
+
+                    <div class="accordion faq-list" id="faqAccordion">
+                        <div class="accordion-item" data-aos="fade-up">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button FaQ collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    <i class="bi bi-question-circle text-success me-2 "></i> Mengapa daur ulang penting?
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse bg-body-secondary"
+                                aria-labelledby="headingOne" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet
+                                    non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor
+                                    purus non.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item" data-aos="fade-up" data-aos-delay="100">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button FaQ collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    <i class="bi bi-question-circle text-success me-2"></i> Feugiat scelerisque varius
+                                    morbi enim nunc?
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse bg-body-secondary"
+                                aria-labelledby="headingTwo" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum
+                                    velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend
+                                    donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in
+                                    cursus turpis massa tincidunt dui.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item" data-aos="fade-up" data-aos-delay="200">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button FaQ collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    <i class="bi bi-question-circle text-success me-2"></i> Dolor sit amet consectetur
+                                    adipiscing elit?
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse bg-body-secondary"
+                                aria-labelledby="headingThree" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus
+                                    pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit.
+                                    Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis
+                                    tellus. Urna molestie at elementum eu facilisis sed odio morbi quis.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item" data-aos="fade-up" data-aos-delay="300">
+                            <h2 class="accordion-header" id="headingFour">
+                                <button class="accordion-button FaQ collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                    <i class="bi bi-question-circle text-success me-2"></i> Tempus quam pellentesque nec
+                                    nam aliquam sem et tortor consequat?
+                                </button>
+                            </h2>
+                            <div id="collapseFour" class="accordion-collapse collapse bg-body-secondary"
+                                aria-labelledby="headingFour" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in
+                                    est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl
+                                    suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item" data-aos="fade-up" data-aos-delay="400">
+                            <h2 class="accordion-header" id="headingFive">
+                                <button class="accordion-button FaQ collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                    <i class="bi bi-question-circle text-success me-2"></i> Tortor vitae purus faucibus
+                                    ornare. Varius vel pharetra vel turpis nunc eget lorem dolor?
+                                </button>
+                            </h2>
+                            <div id="collapseFive" class="accordion-collapse collapse bg-body-secondary"
+                                aria-labelledby="headingFive" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Laoreet sit amet cursus sit amet dictum sit amet justo. Mauris vitae ultricies leo
+                                    integer malesuada nunc vel. Tincidunt eget nullam non nisi est sit amet. Turpis nunc
+                                    eget lorem dolor sed. Ut venenatis tellus in metus vulputate eu scelerisque.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- TEam VOC WEB-->
+            <div class="container mt-5 mb-5 d-none d-lg-block bg-body-tertiary">
+                <div class="text-center mb-5">
+                    <h1>TEAM</h1>
+                    <p>Kelompok Pembuat Project Website Laboratorium Darlim</p>
+                    <hr class="border border-success border-3 opacity-75">
+                </div>
+                <div class="row d-flex justify-content-center bg-dark-subtle">
+                    <!-- Top row with 3 members -->
+                    <div class="col-md-4" data-aos="fade-up">
+                        <div class="team-member">
+                            <img src="Assets/Img/TeamWEB/BKW.png" alt="Bolopa">
+                            <h5>Bolopa KW</h5>
+                            <p>23.02.1020</p>
+                            <p>Front End</p>
+                            <p>"Never gonna give you up"<br>(●'◡'●)</p>
+                            <div class="social-icons">
+                                <i class="bi bi-x-circle-fill"></i>
+                                <i class="bi bi-facebook"></i>
+                                <i class="bi bi-instagram"></i>
+                                <i class="bi bi-linkedin"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4" data-aos="fade-up">
+                        <div class="team-member">
+                            <img src="Assets/Img/TeamWEB/RTD.png" alt="Rasyid">
+                            <h5>Rasyid TD</h5>
+                            <p>23.02.0998</p>
+                            <p>Front End & Design</p>
+                            <p>"Never gonna let you down"<br>╰(*°▽°*)╯</p>
+                            <div class="social-icons">
+                                <i class="bi bi-x-circle-fill"></i>
+                                <i class="bi bi-facebook"></i>
+                                <i class="bi bi-instagram"></i>
+                                <i class="bi bi-linkedin"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4" data-aos="fade-up">
+                        <div class="team-member">
+                            <img src="Assets/Img/TeamWEB/MF.png" alt="Rizqi">
+                            <h5>M FathurRIZQI</h5>
+                            <p>23.02.1034</p>
+                            <p>Design</p>
+                            <p>"Never gonna run around and desert you"<br>[]~(￣▽￣)~*</p>
+                            <div class="social-icons">
+                                <i class="bi bi-x-circle-fill"></i>
+                                <i class="bi bi-facebook"></i>
+                                <i class="bi bi-instagram"></i>
+                                <i class="bi bi-linkedin"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row d-flex justify-content-center bg-dark-subtle">
+                    <!-- Bottom row with 2 members -->
+                    <div class="col-md-4" data-aos="fade-up">
+                        <div class="team-member">
+                            <img src="Assets/Img/TeamWEB/ARA.png" alt="Dias">
+                            <h5>Ardias RA</h5>
+                            <p>23.02.1003</p>
+                            <p>Front End</p>
+                            <p>"Never gonna make you cry"<br>"Never gonna say goodbye"</p>
+                            <div class="social-icons">
+                                <i class="bi bi-x-circle-fill"></i>
+                                <i class="bi bi-facebook"></i>
+                                <i class="bi bi-instagram"></i>
+                                <i class="bi bi-linkedin"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4" data-aos="fade-up">
+                        <div class="team-member">
+                            <img src="Assets/Img/TeamWEB/YRS.png" alt="Yeremia">
+                            <h5>Yeremia RS</h5>
+                            <p>23.02.1019</p>
+                            <p>Front End</p>
+                            <p>"Never gonna tell a lie and hurt you"<br>(. ❛ ᴗ ❛.)</p>
+                            <div class="social-icons">
+                                <i class="bi bi-x-circle-fill"></i>
+                                <i class="bi bi-facebook"></i>
+                                <i class="bi bi-instagram"></i>
+                                <i class="bi bi-linkedin"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+
+
+            <!-- Maps -->
+            <section id="contact" class="contact mt-5">
+                <div class="container">
+                    <h1 class="justify-content-center text-center mt-5 mb-5 text-success">Hubungi Kami</h1>
+                    <hr class="border border-success border-3 opacity-75">
+                    <div class="row no-gutters justify-content-center" data-aos="fade-up">
+
+                        <div class="col-lg-5 d-flex align-items-stretch d-none d-lg-block">
+                            <div class="info">
+                                <div class="address">
+                                    <i class="bi bi-geo-alt"></i>
+                                    <h4>Alamat :</h4>
+                                    <p>Kendangan RT 003/RW 034, Caturharjo, Sleman, Yogyakarta</p>
+                                </div>
+
+                                <div class="email mt-4">
+                                    <i class="bi bi-envelope"></i>
+                                    <h4>Email :</h4>
+                                    <p>nurhdyt37@gmail.com </p>
+                                </div>
+
+                                <div class="phone mt-4">
+                                    <i class="bi bi-phone"></i>
+                                    <h4>Nomor Tlp :</h4>
+                                    <p>+62 89619 076 789
+                                    </p>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="col-lg-5 d-flex align-items-stretch">
+                            <iframe style="border:0; width: 100%; height: 290px;"
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3951.8311346089163!2d110.356305175797!3d-7.683088593657559!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a591223de02c7%3A0x6b798ef4c99898fa!2sKendangan%2C%20Caturharjo%2C%20Kec.%20Sleman%2C%20Kabupaten%20Sleman%2C%20Daerah%20Istimewa%20Yogyakarta!5e0!3m2!1sen!2sid!4v1624523797308!5m2!1sen!2sid"
+                                frameborder="0" allowfullscreen></iframe>
+                        </div>
+
+                    </div>
+
+                    <div class="row mt-5 mb-5 justify-content-center" data-aos="zoom-in">
+                        <div class="col-lg-10">
+                            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                                <div class="row">
+                                    <div class="col-md-6 form-group">
+                                        <input type="text" name="name" class="form-control" id="name"
+                                            placeholder="Your Name" required>
+                                    </div>
+                                    <div class="col-md-6 form-group mt-3 mt-md-0">
+                                        <input type="email" class="form-control" name="email" id="email"
+                                            placeholder="Your Email" required>
+                                    </div>
+                                </div>
+                                <div class="form-group mt-3">
+                                    <input type="text" class="form-control" name="subject" id="subject"
+                                        placeholder="Subject" required>
+                                </div>
+                                <div class="form-group mt-3">
+                                    <textarea class="form-control" name="message" rows="5" placeholder="Message"
+                                        required></textarea>
+                                </div>
+                                <div class="my-3">
+                                    <div class="loading">Loading</div>
+                                    <div class="error-message"></div>
+                                    <div class="sent-message">Your message has been sent. Thank you!</div>
+                                </div>
+                                <div class="text-center"><button type="submit">Send Message</button></div>
+                            </form>
+                        </div>
+
+                    </div>
+
+                </div>
+            </section><!-- End Contact Section -->
+        </div>
+
+
+        <!-- Footer -->
+        <footer id="footer">
+            <div class="footer-top mt-5">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-lg-3 col-md-6">
+                            <div class="footer-info">
+                                <img src="Assets/Img/Logo_Darlim_Fiks.png" width="50px" alt="">
+                                <h3>Lab Darlim</h3>
+                                <p>
+                                    Kendangan RT 003/RW 034
+                                    <br>
+                                    Kecamatan Caturharjo
+                                    <br>
+                                    Kabupaten Sleman
+                                    <br>
+                                    Daerah Istimewa Yogyakarta
+                                    <br>
+                                    <br>
+                                    <strong>Phone:</strong> +62 89619076789<br>
+                                    <strong>Email:</strong> <a href=""
+                                        style="text-decoration: none;">nurhdyt37@gmail.com</a><br>
+                                </p>
+                                <div class="social-links mt-3">
+                                    <ul>
+                                        <li><a href="#"><i class="bi bi-twitter-x icon"></i></a></li>
+                                        <li><a href="#"><i class="bi bi-facebook icon"></i></a></li>
+                                        <li><a href="#"><i class="bi bi-instagram icon"></i></a></li>
+                                        <li><a href="#"><i class="bi bi-linkedin icon"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-2 col-md-6 footer-links">
+                            <h4>Tentang Kami</h4>
+                            <ul>
+                                <li><i class="bi bi-chevron-right"></i> <a href="#">Blog</a></li>
+                                <li><i class="bi bi-chevron-right"></i> <a href="#">Community</a></li>
+                                <li><i class="bi bi-chevron-right"></i> <a href="#">Layanan</a></li>
+                                <li><i class="bi bi-chevron-right"></i> <a href="#">Persyaratan layanan</a></li>
+                                <li><i class="bi bi-chevron-right"></i> <a href="#">Kebijakan</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6 footer-links">
+                            <h4>Our Services</h4>
+                            <ul>
+                                <li><i class="bi bi-chevron-right"></i> <a href="#">Web Design</a></li>
+                                <li><i class="bi bi-chevron-right"></i> <a href="#">Web Development</a></li>
+                                <li><i class="bi bi-chevron-right"></i> <a href="#">Product Management</a></li>
+                                <li><i class="bi bi-chevron-right"></i> <a href="#">Marketing</a></li>
+                                <li><i class="bi bi-chevron-right"></i> <a href="#">Graphic Design</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 footer-newsletter">
+                            <h4>Our Newsletter</h4>
+                            <p>Ingin tahu berita terbaru Lab DARLIM?<br>
+                                Berlangganan Sekarang
+                            <div style="color: yellow;">GERATIS<i class="bi bi-arrow-down"></i></div>
+                            </p>
+                            <form action="" method="post">
+                                <input type="email" name="email">
+                                <input type="submit" value="Subscribe">
+                            </form>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="copyright">
+                    &copy; Copyright <strong><span>Lab DARLIM</span></strong>. All Rights Reserved
+                </div>
+                <div class="credits">
+                    Designed by <a href="#">Staff VOC <p style="color: red;">Kelompok 1</p></a>
+                </div>
+            </div>
+        </footer>
+
+        <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+                class="bi bi-arrow-up-short"></i></a>
+
+        <!-- JS Online -->
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.4/dist/umd/popper.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+        <script src="Assets/Js/Js.js"></script>
+
+        <script>
+            AOS.init();
+        </script>
+
+</body>
+
+</html>
